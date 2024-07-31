@@ -9,6 +9,11 @@ The objective is to develop a model to predict the demand for shared bikes based
 ## Data Description
 The dataset contains daily bike demand data with several independent variables for two years from 2018 to 2019.
 
-## Data Preparation
+## Data Preparation and EDA
+Cleaning the data, Outlier treatment, Feature scaling and visualizing to make inferences.
+
 ## Model Building
+The model is built using the `cnt` variable as the target. The independent variables are used to predict the total number of bike rentals.
+
 ## Model Evaluation
+After building the model and making predictions on the test set, evaluate the model using the R-squared score
